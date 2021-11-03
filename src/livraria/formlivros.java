@@ -90,6 +90,7 @@ public class formlivros extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         tLivros = new javax.swing.JTable();
         jButton4 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -173,6 +174,8 @@ public class formlivros extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setText("Fechar");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -184,6 +187,8 @@ public class formlivros extends javax.swing.JFrame {
                 .addComponent(tfalterar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(tfexcluir)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
@@ -250,7 +255,8 @@ public class formlivros extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(tfalterar)
-                    .addComponent(tfexcluir))
+                    .addComponent(tfexcluir)
+                    .addComponent(jButton2))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -391,6 +397,7 @@ public class formlivros extends javax.swing.JFrame {
     private javax.swing.JComboBox<Object> cbEditora;
     private javax.swing.JComboBox<Object> cbautor;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
